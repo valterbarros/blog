@@ -1,24 +1,18 @@
 <!DOCTYPE html>
+<html>
 <!-- I'm a comment. You won't actually see me on the web page.
      You should write your header in the line below me! -->
 <head>
+    <title>Valter Barros</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <style> 
-        input{
-            border:0;
-            padding:12px;
-            font-size:18px;
-            border-radius:3px;
-        }
-        input[type=submit]{
-            background:limegreen;
-            color:black;
+        *{
+            padding:0;
         }
         body{
             text-align:center;
-            background: black;
-            color:white;
+            color:black;
             font-family: Helvetica;
-            background: url(https://codecademy-content.s3.amazonaws.com/courses/web-beginner-en-3pc6w/images/splash.jpg);
             background-size: cover;
             background-position: center center;
             background-repeat: no-repeat;
@@ -26,18 +20,75 @@
         }
         p{
             font-size: 24px;
-	}
+	    }
     	img{
-		border-radius:50%;
-	}
-    </style>
+		  border-radius:50%;
+        }
+        .container{
+            display:'';
+        }
+
+        .icon > span{
+            display:none;
+        }
+
+        .icons li{
+            display: inline-block;
+            font-size:30px;
+        }
+
+        .icon:hover{
+            color: #1abc9c;
+            transition: all 0.2s linear;
+        }
+        .icon{
+            color:#95a5a6;
+            transition: all 0.2s linear;
+            text-decoration:none;
+        }
+
+        ul{
+            list-style:none;
+        }
+
+        #footer{
+            position:absolute;
+            bottom:0;
+            left:0;
+            width:100%;
+            background-color:rgba(0,0,0,0.8);
+            color:#95a5a6;
+        }
+
+	</style>
 </head>
 <body>
-    <img src="https://avatars2.githubusercontent.com/u/17336201?v=3&s=460" height="250" width="250">
-    <p>Hi! I am learning how to make
-    my very own web page! I really like
-    blueberry muffins and long walks on
-    the beach.</p>
-    <input type="email" placeholder="Email">
-    <input type="submit">
+    <img src="https://avatars2.githubusercontent.com/u/17336201?v=3&s=460" height="200" width="200">
+    <h1>Hi! I am Valter Barros</h1> 
+    <p>Estudante de análise e desenvolvimento de sistemas no último ano de graduação, <br>
+    agora estou engajado com meu tcc uma plataforma de cursos gamificada. <br>
+    Tenho experiência com PHP, Java, Javascript e atualmente aprendendo Ruby.</p>
+    <!-- <div class="container">
+        <div class="fb-comments" data-href="http://valterbarros.com/" data-numposts="5"></div>
+    </div> -->
+    <script>(function(d, s, id) {
+       // var js, fjs = d.getElementsByTagName(s)[0];
+       // if (d.getElementById(id)) return;
+       // js = d.createElement(s); js.id = id;
+       // js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.7";
+       // fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <footer id="footer">
+      <ul class="icons">
+        <li><a href="https://twitter.com" target="_blank" class="icon fa fa-twitter"><span class="label">Twitter</span></a></li>
+        <li><a href="https://www.facebook.com/valterbarrosjunior" target="_blank" class="icon fa fa-facebook"><span class="label">Facebook</span></a></li>
+        <li><a href="https://github.com/valterbarros" target="_blank" class="icon fa fa-github"><span class="label">Github</span></a></li>
+        <li><a href="https://www.linkedin.com/in/valter-barros-827079128?trk=nav_responsive_tab_profile" target="_blank" class="icon fa fa-linkedin"><span class="label">LinkedIn</span></a></li>
+      </ul>
+      <ul class="copyright">
+        <li>made by valter barros since 2016</li>
+      </ul>
+    </footer>
 </body>
+</html>

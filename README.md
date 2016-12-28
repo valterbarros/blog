@@ -1,3 +1,3 @@
 # valterbarros.github.io
 My personal blog!
-[valterbarros.com](www.valterbarros.com)
+[valterbarros.com](http://www.valterbarros.com)

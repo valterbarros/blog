@@ -1,7 +1,7 @@
 ---
 title:  "Galeria de imagens com Display:flex"
 date:   2016-12-23 09:01:43 -0500
-categories: jekyll update
+category: front-end
 ---
 
 Introdução
@@ -16,15 +16,15 @@ Explicando o básico sobre a propriedade display:flex
 
 `display:flex` Além de várias outras coisas ele serve para alinhar os filhos de um elemento horizontalmente.
 
-![display flex exemplo image]({{ site.url }}/img/display-flex.png)
+![display flex exemplo image](/img/display-flex.png)
 
 Para que esses elementos não fiquem na mesma linha que no caso é o comportamento padrão deles você deve usar `flex-wrap:wrap`.
 
-![flex-wrap exemplo image]({{ site.url }}/img/flex-wrap.png)
+![flex-wrap exemplo image](/img/flex-wrap.png)
 
 Já no caso de você querer centralizar o conteúdo após utilizar as propriedades acima você precisa usar `justify-content:center`
 
-![flex-wrap exemplo image]({{ site.url }}/img/justify-content.png)
+![flex-wrap exemplo image](/img/justify-content.png)
 
 Práticando com display:flex
 =============================
@@ -81,8 +81,8 @@ Podemos definir uma margem entre as imagens...
 
 Resultado final:
 ===========================
-![thelastofus]({{ site.url }}/img/galery-tlou.png)
+![thelastofus](/img/galery-tlou.png)
 
 Então, meu primeiro post aqui no blog, estou adorando o **jekyll** que é a plataforma que estou utilizando, bastante simples e funcional. Espero poder ajudar outros devs compartilhando conhecimento por aqui e dessa forma também aprender, se chegou até aqui obrigado ;D.
 
-![Por hoje é só. Até a próxima pessoal!]({{ site.url }}/img/he-man-frase.jpg)
+![Por hoje é só. Até a próxima pessoal!](/img/he-man-frase.jpg)

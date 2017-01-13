@@ -2,9 +2,10 @@
 layout: post
 title:  "Galeria de imagens com Display:flex"
 date:   2016-12-23 09:01:43 -0500
-excerpt: "A ton of text to test readability."
+excerpt: "Uma dica legal."
 tags: [sample post]
 category: front-end
+comments: true
 ---
 
 Introdução
@@ -52,7 +53,7 @@ Primeiro criamos uma **.galeria** vamos alinhar os **.galeria-item** por ele.
       <img src="https://jovemnerd.com.br/wp-content/uploads/The-Last-of-Us-2-concept-art.jpg">
     </figure>
   </div>  
-{% endhighlight%}
+{% endhighlight %}
 
 E aqui está a mágica que vai alinhar, centralizar e garantir que tudo não fique em apenas uma linha.
 

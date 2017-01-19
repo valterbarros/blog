@@ -5,6 +5,7 @@ date:   2016-12-23 09:01:43 -0500
 excerpt: "Javascript e suas variáveis."
 tags: [sample post]
 category: front-end
+comments: true
 ---
 
 Antes algumas informações

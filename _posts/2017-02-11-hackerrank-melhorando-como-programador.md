@@ -18,14 +18,14 @@ E ae galera, mais um post estou tendo uma dificuldade enorme em escrever esses p
 
 Como podemos ver é bastante fácil ter uma conta no hackerrank, você pode conectar 498498498 de contas, facebook, google, likedin, github. E se essas opções não forem suficiente você pode escolher o seu melhor e-mail e se cadastrar. Sem desculpas façam seus cadastros.
 
-![](https://www.evernote.com/shard/s443/sh/4602e325-84c3-4119-9e3d-1935f38dadf2/8fb259f7109fadae89298d86e049068e/res/abd8cb0c-b15e-485f-9aad-4b2678dfa0c1/Sem%20t%C3%ADtulo.png?resizeSmall&width=832)
+![](https://camo.githubusercontent.com/10adb88b5de116cdf7ff1b21cdcf630bacef2fad/68747470733a2f2f7777772e657665726e6f74652e636f6d2f73686172642f733434332f73682f34363032653332352d383463332d343131392d396533642d3139333566333864616466322f38666232353966373130396661646165383932393864383665303439303638652f7265732f61626438636230632d623135652d343835662d396161642d3462323637386466613063312f53656d2532307425433325414474756c6f2e706e673f726573697a65536d616c6c2677696474683d383332)
 
 **Exercícios de todos os tipos e linguagens**
 ====================================
 
 Isso mesmo aqui você vai encontrar exercícios divididos por linguagens como ruby, phyton, java, c++ e também por skills especializados como inteligência artificial, sql, databases, etc. Tem desafios para todos os gostos aqui. o/
 
-![](https://www.evernote.com/shard/s443/sh/4602e325-84c3-4119-9e3d-1935f38dadf2/8fb259f7109fadae89298d86e049068e/res/a0b35c2f-50c7-4556-a5ff-7b7e276797d0/Sem%20t%C3%ADtulo.png?resizeSmall&width=832)
+![](https://camo.githubusercontent.com/3fcc451ee872867768171be512456fe940051ea7/68747470733a2f2f7777772e657665726e6f74652e636f6d2f73686172642f733434332f73682f34363032653332352d383463332d343131392d396533642d3139333566333864616466322f38666232353966373130396661646165383932393864383665303439303638652f7265732f61306233356332662d353063372d343535362d613566662d3762376532373637393764302f53656d2532307425433325414474756c6f2e706e673f726573697a65536d616c6c2677696474683d383332)
 
 Os mesmos são divididos em subcategorias como introdução(alias é bom prestar atenção nessa parte pois é bem importante vou falar mais adiante), strings, entre outros vários.
 
@@ -46,10 +46,10 @@ Considero essas dicas que vou passar muito importantes pois estou na plataforma 
 Aba leaderboard - caso você esteja em um problema a muito(muito muito) tempo, e já fez de tudo utilizou o discussions e procurou no google. Tem uma coisa legal que você pode fazer na aba leaderboard que é ver o código de outros participantes isso mesmo haha, ver o código dos asiáticos e afins, o único onus disso é que suas submissões nessa questão não vão mais valer pontos ;/, as vezes é bom você vai aprender com as soluções.
 
 Clica na area verde:
-![](https://www.evernote.com/shard/s443/sh/4602e325-84c3-4119-9e3d-1935f38dadf2/8fb259f7109fadae89298d86e049068e/res/130a710e-26bf-48fb-816d-37c9f8ae39fd/Sem%20t%C3%ADtulo.png?resizeSmall&width=832)
+![](https://camo.githubusercontent.com/39028b2830c37e00107d0e882c9c8388968f1733/68747470733a2f2f7777772e657665726e6f74652e636f6d2f73686172642f733434332f73682f34363032653332352d383463332d343131392d396533642d3139333566333864616466322f38666232353966373130396661646165383932393864383665303439303638652f7265732f31333061373130652d323662662d343866622d383136642d3337633966386165333966642f53656d2532307425433325414474756c6f2e706e673f726573697a65536d616c6c2677696474683d383332)
 
 Depois clica na area verde de novo e você será capaz de ver o código:
-![](https://www.evernote.com/shard/s443/sh/4602e325-84c3-4119-9e3d-1935f38dadf2/8fb259f7109fadae89298d86e049068e/res/447966fe-dbc1-4c8f-9334-01ffea1b91bc/Sem%20t%C3%ADtulo.png?resizeSmall&width=832)
+![](https://camo.githubusercontent.com/496960811aaa8bfc89d86276b7e0031240e8f03e/68747470733a2f2f7777772e657665726e6f74652e636f6d2f73686172642f733434332f73682f34363032653332352d383463332d343131392d396533642d3139333566333864616466322f38666232353966373130396661646165383932393864383665303439303638652f7265732f34343739363666652d646263312d346338662d393333342d3031666665613162393162632f53656d2532307425433325414474756c6f2e706e673f726573697a65536d616c6c2677696474683d383332)
 
 **Extra:**
 

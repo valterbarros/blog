@@ -1,10 +1,12 @@
 ---
+title: Galeria de imagens com Display:flex
+date: 2016-12-23 14:01:43 Z
+categories:
+- front-end
+tags:
+- sample post
 layout: post
-title:  "Galeria de imagens com Display:flex"
-date:   2016-12-23 09:01:43 -0500
-excerpt: "Uma dica legal."
-tags: [sample post]
-category: front-end
+excerpt: Uma dica legal.
 comments: true
 ---
 

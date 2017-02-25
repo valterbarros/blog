@@ -1,10 +1,12 @@
 ---
+title: HackerRank - Melhorando como Programador
+date: 2017-02-11 15:29:43 Z
+categories:
+- dicas
+tags:
+- sample post
 layout: post
-title:  "HackerRank - Melhorando como Programador"
-date:   2017-02-11 10:29:43 -0500
-excerpt: "Uma dica legal."
-tags: [sample post]
-category: dicas
+excerpt: Uma dica legal.
 comments: true
 ---
 

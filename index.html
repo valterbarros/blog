@@ -5,130 +5,193 @@
 <head>
   <meta charset="utf-8">
   <title></title>
+  <meta name="viewport" content="width=device-width; initial-scale = 1.0; maximum-scale=1.0; user-scalable=no" /> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/index.css">
   <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-  <header>
-    <nav class="navbar navbar-inverse">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          <a class="navbar-brand" href="#">
-            <img class="main-logo-navbar" src="assets/images/logo1.png" alt="">
-          </a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Blog <span class="sr-only">(current)</span></a></li>
-            <li><a href="#footer">Contato</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Posts</a></li>
-          </ul>
-        </div>
-        <!-- /.navbar-collapse -->
-      </div>
-      <!-- div container end -->
-    </nav>
-  </header>
-  <section class="box-intro">
+ 
+  <section class="box-intro box-intro-filter">
     <div class="main-section">
       <img class="main-presentation-photo" src="assets/images/eu.jpg" alt="It's me.">
       <h1 id="header-title">Valter Barros</h1>
-      <p>Desenvolvedor Web, e apaixonado por tecnologia.</p>
+      <h2>Desenvolvedor Web <b>e apaixonado por tecnologia.</b></h2>
     </div>
   </section>
-  <section class="section-about">
-    <div class="text-about container">
-      <h2>About</h2>  
+  <section class="section-about container">
+    <h2>About</h2>  
+    <div class="description">
       <p>Meu nome é Valter Barros, natural de Maceió-AL atualmente sou desenvolvedor web e estudante. Cursando análise e desenvolvimento de sistemas na FAT-AL. Por que eu gosto de tecnologias web? Cara é muito legal criar sites e sistemas web se preocupar com a usabilidade e colocar minha criatividade (que não é pouca rsrs) em prática, aprendendo mais a cada dia.</p>
+      <p>Gosto de trabalhar em equipe. Quando conheci o git foi amor a primeira vista, commits, push, pull requests é vida isso vale também para as metodologias ageis.</p>
+      <p>Estou em busca de projetos para aumentar meu xp participando ativamente, ajudando pessoas e facilitando processos.</p>
+      <p>Adoro ideias como Uber e Netflix, que causam grandes mudanças no mercado e startups também.</p>
     </div>
   </section> 
+  
+  <section class="section-skills container">
+    <div class="row">
+      <h2 class="text-center">Habilidades</h2>
+      <div class="col-md-6">
+        <h4>Idiomas:</h4> 
+        <div class="row">
+          <div class="col-sm-4 col-md-12">
+            <div class="row">
+              <div class="col-md-6">
+                <p style="color:black">Português</p>
+              </div>
+              <div class="col-md-6">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-12">
+            <div class="row">
+              <div class="col-md-6">
+                <p style="color:black">Inglês, conversação</p>
+              </div>
+              <div class="col-md-6">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-12">
+            <div class="row">
+              <div class="col-md-6">
+                <p style="color:black">Inglês, Leitura</p>
+              </div>
+              <div class="col-md-6">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>    
+      <div class="col-md-6">
+        <h4>Conhecimentos:</h4>
+        <div class="skill-icon rails"></div>
+        <div class="skill-icon bootstrap"></div>
+        <div class="skill-icon javascript"></div>
+        <div class="skill-icon html5"></div>
+        <div class="skill-icon css3"></div>
+        <div class="skill-icon github"></div>
+        <div class="skill-icon trello"></div>
+        <div class="skill-icon react"></div>
+        <div class="skill-icon angular"></div>
+      </div>
+    </div>
+  </section>
+  
   <section class="section-portifolio">
     <div class="portifolio-gallery container">
-      <h2>Meus Trabalhos</h2>  
+      <h2>Portfolio</h2>  
       <div class="row">
-        <figure class="gallery-item col-sm-6">
-          <p>ClassGame</p>
-          <img src="assets/images/classgame.png" alt=""/>   
-  <!--        <a href="#">Ver Mais</a>-->
+        <figure class="gallery-item col-sm-4">
+          <h4>ClassGame</h4>
+          <p>Uma plataforma de cursos com gamificação onde você pode aprender jogando. Feito utilizando <b>Ruby on Rails</b> como backend.</p>
+          <a href="https://classgame.herokuapp.com" target="_blank">
+            <img src="assets/images/classgame.png" alt=""/>   
+          </a>
         </figure>
-
-        <figure class="gallery-item col-sm-6">
-          <p>Blog Valter Barros</p>
-          <img src="assets/images/valterbarrosblog.png" alt=""/>
-  <!--        <a href="#">Ver Mais</a>-->
+        <figure class="gallery-item col-sm-4">
+          <h4>Meu Site</h4>
+          <p>Meu site pessoal desenvolvido por mim, à tempos era minha vontade e agora finalmente está ficando como eu queria.</p>
+          <a href="#">
+            <img src="assets/images/valterbarrosblog.png" alt=""/>
+          </a>
+        </figure>
+        <figure class="gallery-item col-sm-4">
+          <h4>Meu Github</h4>
+          <p>Github é uma rede social para programadores é possivel postar projetos inteiros grandes projetos o utilizam como angular, atom, ruby on rails e outros.</p>
+          <a href="https://github.com/valterbarros" target="_blank">
+            <img src="assets/images/perfil github.png" alt=""/>
+          </a>
         </figure>
       </div>
     </div>
   </section>
   
   <section class="section-posts container">
-    <h2>Posts</h2>
+    <h2 class="text-center">Posts</h2>
     <div class="row">
+      
       <div class="col-sm-4">
         <div class="panel panel-default">
-          <div class="panel-heading">HackerRank - Melhorando como Programador</div>
           <div class="panel-body">
-            <p>Uma dica legal.</p>
-            <img src="https://pbs.twimg.com/profile_images/725056345708191744/Nys6puxy.jpg" alt="hackerrank">
+            <a href="http://valterbarros.com/hackerrank-melhorando-como-programador/" target="_blank">
+              <img src="https://www.eteki.com/wp-content/uploads/2016/03/Top_4_Trending_Programming_Languages_One_Must_Learn.jpg" alt="hackerank"/>
+            </a>
+            <h3>HackerRank - Melhorando como Programador</h3>
+            <p>E ae galera, mais um post estou tendo uma dificuldade enorme em escrever esses posts aqui, falta de motivação e outras coisinhas a mais, por isso eu só vou escrever quando realmente...</p>
+            <a href="http://valterbarros.com/hackerrank-melhorando-como-programador/" target="_blank">Ver mais</a>
           </div>
         </div>
       </div> 
-
+      
       <div class="col-sm-4">
         <div class="panel panel-default">
-          <div class="panel-heading">Você está muito ocupado para melhorar?</div>
           <div class="panel-body">
-            <p>Porque as vezes parar para observar como pode melhorar é tudo</p>
-            <img src="http://valterbarros.com/assets/img/are%20you%20too%20busy%20to%20improve.png">
+            <a href="http://valterbarros.com/javascript-hoisting/" target="_blank">
+              <img src="http://blog.guinatal.com/wp-content/uploads/2015/10/hoisting.jpg" alt=""/> 
+            </a>
+            <h3>Javascript Hoisting</h3>
+            <p>Parece ser uma informação básica porem podemos nos surpreender com a quantidade de desenvolvedores javascript que podem se perder nesse conceito...</p>
+            <a href="http://valterbarros.com/javascript-hoisting/" target="_blank">Ver mais</a>
           </div>
         </div>
       </div> 
-
+        
       <div class="col-sm-4">
         <div class="panel panel-default">
-          <div class="panel-heading">Galeria de imagens com Display:flex</div>
           <div class="panel-body">
-            <p>Uma dica legal.</p>
-            <img src="http://valterbarros.com/assets/img/justify-content.png">
+            <a href="http://valterbarros.com/display-flex/" target="_blank">
+              <img src="http://valterbarros.com/assets/img/flex-wrap.png" alt="display flex"/> 
+            </a>
+            <h3>Galeria de imagens com Display:flex</h3>
+            <p>O valor flex para a propriedade display é algo bastante útil no front-end, para saber quais navegadores e versões são compatíveis você pode checar no caniuse, assim que conheci já comecei...</p>
+            <a href="http://valterbarros.com/display-flex/" target="_blank">Ver mais</a>
           </div>
         </div>
       </div> 
     </div>
   </section>
+  
+  <section class="section-about">
+    <h2 class="text-center">Contato</h2>
+    <h4 class="text-center description">Entre em contato vou ficar feliz em participar de uma projeto com você fique a vontade para me enviar um mensagem para o e-mail <a href="mailto:valterinside@gmail.com">valterinside@gmail.com</a> </h4>
+    <ul class="icons">
+      <li>
+        <a href="https://twitter.com/bluevalter" target="_blank" class="social-btn icon fa fa-twitter"></a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/valterbarrosjunior" target="_blank" class="social-btn icon fa fa-facebook-square"></a>
+      </li>
+      <li>
+        <a href="https://github.com/valterbarros" target="_blank" class="social-btn icon fa fa-github"></a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/valter-barros-827079128?trk=nav_responsive_tab_profile" target="_blank" class="social-btn icon fa fa-linkedin"></a>
+      </li>
+    </ul>
+  </section>
 
   <footer id="footer" class="footer-page">
-    <h2>Contato</h2>
     <div class="content-footer">
-      <ul class="icons">
-        <li>
-          <a href="https://twitter.com" target="_blank" class="social-btn icon fa fa-twitter"></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/valterbarrosjunior" target="_blank" class="social-btn icon fa fa-facebook-square"></a>
-        </li>
-        <li>
-          <a href="https://github.com/valterbarros" target="_blank" class="social-btn icon fa fa-github"></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/valter-barros-827079128?trk=nav_responsive_tab_profile" target="_blank" class="social-btn icon fa fa-linkedin"></a>
-        </li>
-      </ul>
       <ul class="copyright">
-        <li>made by valter barros since 2016</li>
-        <li class="fa fa-envelope" aria-hidden="true"><a href="#">valterinside@gmail.com</a></li>
-        <li class="fa fa-phone-square" aria-hidden="true"><a href="#">82 9 9687 5791</a></li>
+        <li><p>made by valter barros since 2016</p></li>
+<!--        <li class="fa fa-envelope" aria-hidden="true"><span href="#">valterinside@gmail.com</span></li>-->
+        <li class="fa fa-phone-square" aria-hidden="true"><span href="#">82 9 9687 5791</span></li>
       </ul>
     </div>
   </footer>

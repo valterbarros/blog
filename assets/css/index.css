@@ -1,11 +1,36 @@
+/*general styles*/
 *{
   padding:0;
   margin:0;
   box-sizing: border-box;
-  color:white;
   font-family: 'Nunito Sans', sans-serif;
 }
 
+section{
+  padding:70px 0;
+}
+
+.text-center{
+  text-align: center;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 70px;
+}
+
+h2{
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-size:2.6em;
+}
+
+p{
+  color:white;
+}
+/*general styles end*/
+
+/*main*/
 .main-logo-navbar{
   width: 50px;
   height: 50px;
@@ -14,58 +39,139 @@
 .navbar{
   border-radius: 0 !important;
   margin:0;
+  z-index: 2;
 }
 
 .box-intro{
   text-align: center;
-  background: url(https://d13yacurqjgara.cloudfront.net/users/108482/screenshots/1355879/attachments/193117/Space-Desktop.jpg) no-repeat bottom center scroll;
+  background: url(/assets/images/cover.jpg) no-repeat bottom center scroll;
   background-size: cover;
   width:100%;
+  color:white;
+  height: calc(100vh - 100px);
+}
+
+.box-intro h2{
+  font-weight: 100;
+}
+
+.box-intro-filter:after{
+  content:"";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  background-color:rgba(0,0,0,0.3); 
+}
+
+.box-intro-filter{
+  position:relative;
 }
 
 .main-presentation-photo{
   border-radius: 50%;
   height: 200px;
+  border: .5rem solid;
+  border-color:rgba(255,255,255,0.2);
 }
 
 .main-section{
-  padding: 250px 0;
+  padding: 100px 0;
+  z-index:2;
+  position:relative;
 }
+/*main end*/
 
 /*section about*/
 .section-about{
   text-align: center;
-  background: black;
-  height: 400px;
-  padding-top:70px;
+  background: white;
+  height: auto;
 }
 
-
-h2{
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 50px;
-  margin:0;
+.section-about p{
+  color:black;
 }
 
-h1{
-  font-weight: 700;
-  font-size: 70px;
-}
-
-p{
-  font-size:1.25em;
+.section-about .description{
+  max-width: 533px;
+  margin:0 auto;
 }
 
 /*section about end*/
+
+/*section skills*/
+
+.section-skills h2{
+  color: black;
+  margin-bottom: 50px;
+}
+
+.skill-icon{
+  background-image: url(../images/spritesheet_skill-icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 5px 5px 0px;
+  height: 50px;
+}
+
+.skill-icon.rails{
+  width:50px;
+  background-position: 0px 0px;
+}
+
+.skill-icon.bootstrap{
+  width:50px;
+  background-position: -65px 0px;
+}
+
+.skill-icon.javascript{
+  width:50px;
+  background-position: -130px 0px;
+}
+
+.skill-icon.html5{
+  width:50px;
+  background-position: -192px 0px;
+}
+
+.skill-icon.css3{
+  width:50px;
+  background-position: -250px 0px;
+}
+
+.skill-icon.github{
+  width:50px;
+  background-position: -315px 0px;
+}
+
+.skill-icon.trello{
+  width:50px;
+  background-position: -380px 0px;
+}
+
+.skill-icon.react{
+  width:55px;
+  background-position: -444px 0px;
+}
+
+.skill-icon.angular{
+  width:50px;
+  background-position: -508px 0px;
+}
+
+
+/*section skills end*/
 
 /*Section portifolio*/
 .section-portifolio{
   text-align: center;
   color: black;
-  background: #ddd;
-  height: 600px;
-  padding-top:70px;
+  height: auto;
 }
 
 .section-portifolio h2{
@@ -77,6 +183,8 @@ p{
   width:  100%;
   object-fit: cover;
   margin: 0 0 30px;
+  box-shadow: 5px 10px 15px #ddd;
+  border-radius:6px;
 }
 
 .gallery-item{
@@ -89,10 +197,34 @@ p{
   margin:0 0 10px;
 }
 
-.gallery-item a{
-  position:absolute;
-  bottom:40%;
-  left:40%;
+/*Section portifolio end*/
+
+/*Section posts*/
+
+.section-posts{
+  height: auto;
+}
+
+
+.panel-body img{
+  width: 100%;
+}
+
+.panel{
+  #box-shadow:5px 10px 15px #ddd;
+  #border:0;
+  height: 450px;
+}
+
+.panel-body>p{
+  color:black;
+}
+
+/*
+.link-blog{
+  #position:absolute;
+  #bottom:40%;
+  #left:40%;
   background: none;
   box-shadow: 0 0 0 2px rgba(144, 144, 144, 0.25);
   border-radius:4px;
@@ -105,35 +237,48 @@ p{
   color:black;
   font-weight: 700;
 }
-
-/*Section portifolio end*/
-
-/*Section posts*/
-
-.section-posts{
-  padding-top:70px;
-}
-
-.section-posts h2{
-  color: black;
-  text-align: center;
-  margin-bottom:50px;
-}
-
-.panel-body>img{
-  width: 100%;
-}
-
-.panel-body>p{
-  color:black;
-}
+*/
 
 /*Section posts end*/
 
-/*Section contact*/
+/*Section about*/
+/*Social medias*/
+.icons li{
+  display: inline-block;
+  font-size:4.0em;
+}
+
+.icons{
+  margin-top:20px; 
+}
+
+.social-btn{
+  color: black;
+  text-decoration: none;
+  margin:10px;
+}
+
+.social-btn:hover{
+  color: #1abc9c;
+  transition: all 0.2s linear;
+  text-decoration: none;
+}
+
+/*Social medias end*/
+/*Section about end*/
+
+/*Footer*/
+.footer-page{
+  padding:15px 0;
+  background-color: #e6e6e6;
+}
+
+.footer-page p{
+  color: black;
+}
+
 .content-footer{
-  width: 100%; 
-  height: 100px;
+  width: 100%;
   text-align: center;
 }
 
@@ -142,37 +287,8 @@ p{
   color:black;
 }
 
-/*Social medias*/
-.icons li{
-  display: inline-block;
-  font-size:4.0em;
-}
-
-.social-btn{
-  color: black;
-  text-decoration: none;
-  padding:10px;
-  margin:10px;
-  border: 2px solid;
-  border-color: rgba(229,230,233,0.5) rgba(223,224,228,0.5) #d0d1d5;
-  border-radius:3px;
-}
-
-.social-btn:hover{
-  color: #1abc9c;
-  transition: all 0.2s linear;
-  text-decoration: none;
-}
-/*Social medias end*/
-
 .copyright li{
   color:black;
 }
-/*Section contact end*/
 
-
-
-
-
-
-
+/*Footer end*/

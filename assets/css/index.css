@@ -1,6 +1,5 @@
 /*general styles*/
 html {
-  #overflow-x: hidden;
   background:red;
 }
 
@@ -56,7 +55,7 @@ p{
 .box-intro{
   text-align: center;
   padding-top:20vh;
-  background: url(/assets/images/cover.jpg) no-repeat bottom center scroll;
+  background: url(my-own-website/assets/images/cover.jpg) no-repeat bottom center scroll;
   background-size: cover;
   width:100%;
   color:white;

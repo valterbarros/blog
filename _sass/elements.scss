@@ -122,6 +122,7 @@ img {
 	border: 3px solid $white;
 	height: 150px;
 	width: 150px;
+	object-fit: cover;
 }
 .author-photo {
     background-color: $white;
@@ -168,7 +169,7 @@ figure {
   }
 }
 svg:not(:root) {
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 // keyboard tag

@@ -22,15 +22,15 @@ Explicando o básico sobre a propriedade display:flex
 
 `display:flex` Além de várias outras coisas ele serve para alinhar os filhos de um elemento horizontalmente.
 
-![display flex exemplo image](/assets/img/display-flex.png)
+![display flex exemplo image]({{site.baseurl}}/assets/img/display-flex.png)
 
 Para que esses elementos não fiquem na mesma linha que no caso é o comportamento padrão deles você deve usar `flex-wrap:wrap`.
 
-![flex-wrap exemplo image](/assets/img/flex-wrap.png)
+![flex-wrap exemplo image]({{site.baseurl}}/assets/img/flex-wrap.png)
 
 Já no caso de você querer centralizar o conteúdo após utilizar as propriedades acima você precisa usar `justify-content:center`
 
-![flex-wrap exemplo image](/assets/img/justify-content.png)
+![flex-wrap exemplo image]({{site.baseurl}}/assets/img/justify-content.png)
 
 Práticando com display:flex
 =============================
@@ -91,4 +91,4 @@ Resultado final:
 
 Então, meu primeiro post aqui no blog, estou adorando o **jekyll** que é a plataforma que estou utilizando, bastante simples e funcional. Espero poder ajudar outros devs compartilhando conhecimento por aqui e dessa forma também aprender, se chegou até aqui obrigado ;D.
 
-![Por hoje é só. Até a próxima pessoal!](/assets/img/he-man-frase.jpg)
+![Por hoje é só. Até a próxima pessoal!]({{site.baseurl}}/assets/img/he-man-frase.jpg)

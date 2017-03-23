@@ -1,0 +1,325 @@
+/*general styles*/
+html {
+  background:red;
+}
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+section:not(.box-intro){
+  padding:70px 0;
+}
+
+@media (max-width:767px){
+  section:not(.box-intro){
+    padding:20px 0;
+  }
+}
+
+.text-center{
+  text-align: center;
+}
+
+h1{
+  font-weight: 700;
+  font-size: 70px;
+}
+
+h2{
+  font-weight: 600;
+  margin-bottom: 50px;
+  font-size:2.6em;
+}
+
+p{
+  color:white;
+}
+/*general styles end*/
+
+/*main*/
+.main-logo-navbar{
+  width: 50px;
+  height: 50px;
+}
+ 
+.navbar{
+  border-radius: 0 !important;
+  margin:0;
+  z-index: 2;
+}
+
+.box-intro{
+  text-align: center;
+  padding-top:20vh;
+  background: url(/my-own-website/assets/images/cover.jpg) no-repeat bottom center scroll;
+  background-size: cover;
+  width:100%;
+  color:white;
+  height: calc(100vh - 90px);
+}
+
+.box-intro h2{
+  font-weight: 100;
+}
+
+@media (max-width:800px){
+  .main-section h1{
+    font-size:2.8em !important;
+  }
+  .main-section h2{
+    font-size:1.2em;
+  }
+  
+  .box-intro{
+    height: calc(100vh - 45px);
+  }
+}
+
+.box-intro-filter:after{
+  content:"";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index:1;
+  background-color:rgba(0,0,0,0.3); 
+}
+
+.box-intro-filter{
+  position:relative;
+}
+
+.main-presentation-photo{
+  border-radius: 50%;
+  border: .5rem solid;
+  border-color:rgba(255,255,255,0.2);
+  max-width: 200px;
+}
+
+@media (max-width:991px){
+  .main-presentation-photo{
+    max-width: 150px;
+  }
+}
+
+.main-section{
+  #padding: 100px 0;
+  #margin-top: 20vh;
+  z-index:2;
+  position:relative;
+}
+/*main end*/
+
+/*section about*/
+.section-about{
+  text-align: center;
+  background: white;
+  height: auto;
+}
+
+.section-about p{
+  color:black;
+}
+
+.section-about .description{
+  max-width: 533px;
+  margin:0 auto;
+}
+
+/*section about end*/
+
+/*section skills*/
+
+.section-skills h2{
+  color: black;
+  margin-bottom: 50px;
+}
+
+.skill-icon{
+  background-image: url(../images/spritesheet_skill-icon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0px 5px 5px 0px;
+  height: 50px;
+}
+
+.skill-icon.rails{
+  width:50px;
+  background-position: 0px 0px;
+}
+
+.skill-icon.bootstrap{
+  width:50px;
+  background-position: -65px 0px;
+}
+
+.skill-icon.javascript{
+  width:50px;
+  background-position: -130px 0px;
+}
+
+.skill-icon.html5{
+  width:50px;
+  background-position: -192px 0px;
+}
+
+.skill-icon.css3{
+  width:50px;
+  background-position: -250px 0px;
+}
+
+.skill-icon.github{
+  width:50px;
+  background-position: -315px 0px;
+}
+
+.skill-icon.trello{
+  width:50px;
+  background-position: -380px 0px;
+}
+
+.skill-icon.react{
+  width:55px;
+  background-position: -444px 0px;
+}
+
+.skill-icon.angular{
+  width:50px;
+  background-position: -508px 0px;
+}
+
+
+/*section skills end*/
+
+/*Section portifolio*/
+.section-portifolio{
+  text-align: center;
+  color: black;
+  height: auto;
+}
+
+.section-portifolio h2{
+  color: black;
+  margin-bottom: 50px;
+}
+
+.portifolio-gallery img{
+  width:  100%;
+  object-fit: cover;
+  margin: 0 0 30px;
+  box-shadow: 5px 10px 15px #ddd;
+  border-radius:6px;
+}
+
+.gallery-item{
+  position:relative;
+  text-align: left;
+}
+
+.gallery-item p{
+  color:black;
+  margin:0 0 10px;
+}
+
+/*Section portifolio end*/
+
+/*Section posts*/
+
+.section-posts{
+  height: auto;
+}
+
+
+.panel-body img{
+  width: 100%;
+}
+
+.panel{
+  #box-shadow:5px 10px 15px #ddd;
+  #border:0;
+  height: 450px;
+}
+
+.panel-body>p{
+  color:black;
+}
+
+/*
+.link-blog{
+  #position:absolute;
+  #bottom:40%;
+  #left:40%;
+  background: none;
+  box-shadow: 0 0 0 2px rgba(144, 144, 144, 0.25);
+  border-radius:4px;
+  display:inline-block;
+  text-decoration: none;
+  height: 2.85em;
+  padding: 0 2em;
+  font-size: 1.35em;
+  line-height: 2.95em;
+  color:black;
+  font-weight: 700;
+}
+*/
+
+/*Section posts end*/
+
+/*Section about*/
+/*Social medias*/
+.icons li{
+  display: inline-block;
+  font-size:3.0em;
+}
+
+.icons{
+  margin-top:20px; 
+}
+
+ul li a.social-btn{
+  color: black;
+  text-decoration: none;
+  margin:10px;
+}
+
+ul li a.social-btn:hover{
+  color: #1abc9c;
+  transition: all 0.2s linear;
+  text-decoration: none !important;
+}
+
+/*Social medias end*/
+/*Section about end*/
+
+/*Footer*/
+.footer-page{
+  padding:15px 0;
+  background-color: #e6e6e6;
+}
+
+.footer-page p{
+  color: black;
+}
+
+.content-footer{
+  width: 100%;
+  text-align: center;
+}
+
+.footer-page{
+  text-align: center;
+  color:black;
+}
+
+.copyright li{
+  color:black;
+}
+
+/*Footer end*/

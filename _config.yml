@@ -19,6 +19,7 @@ locale: en_US
 url: http://valterbarros.com
 baseurl: "/blog"
 permalink: "/:title/"
+domain_name: http://valterbarros.com/blog
 markdown: kramdown
 highlighter: rouge
 kramdown:

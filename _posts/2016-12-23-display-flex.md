@@ -87,8 +87,8 @@ Podemos definir uma margem entre as imagens...
 
 Resultado final:
 ===========================
-![thelastofus]({%site.url%}/assets/img/galery-tlou.png)
+![thelastofus]({% site.url %}/assets/img/galery-tlou.png)
 
 Então, meu primeiro post aqui no blog, estou adorando o **jekyll** que é a plataforma que estou utilizando, bastante simples e funcional. Espero poder ajudar outros devs compartilhando conhecimento por aqui e dessa forma também aprender, se chegou até aqui obrigado ;D.
 
-![Por hoje é só. Até a próxima pessoal!](/assets/img/he-man-frase.jpg)
+![Por hoje é só. Até a próxima pessoal!]({% site.url %}/assets/img/he-man-frase.jpg)

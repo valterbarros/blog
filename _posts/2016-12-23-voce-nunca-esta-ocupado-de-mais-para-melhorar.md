@@ -10,4 +10,4 @@ excerpt: Porque as vezes parar para observar como pode melhorar é tudo
 comments: true
 ---
 
-![are you too busy to improve](/assets/img/are you too busy to improve.png)
+![are you too busy to improve]({{site.baseurl}}/assets/img/are you too busy to improve.png)

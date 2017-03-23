@@ -16,8 +16,8 @@ logo: assets/img/logo.jpg
 background: assets/img/placeholder-big.jpg
 tiled_bg: false
 locale: en_US
-url: http://valterbarros.com/blog
-base-url: /blog
+url: http://valterbarros.com
+baseurl: "/blog"
 permalink: "/:title/"
 markdown: kramdown
 highlighter: rouge

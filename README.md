@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
   
 ## `Sorry guys but there will be no update until I buy a new laptop.`
@@ -31,3 +32,6 @@ To learn how to install and use this theme check out the [Setup Guide](http://ta
 =======
 # My-own-website
 Make in html/css bootstrap
+=======
+Meu blog feito em jekyll, http://valterbarros.com
+>>>>>>> af72bd7633fb229b851435ca42a5a51733fac524
